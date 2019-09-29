@@ -1,0 +1,31 @@
+#monthly-calendar table {
+    margin: 0 auto;
+    /* height: 90vh; */
+    width: 90vw;
+}
+
+#monthly-calendar table td {
+    border: 1px solid black;
+    text-align: right;
+    vertical-align: top;
+}
+
+#monthly-calendar table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#monthly-calendar {
+    text-align: center;
+}
+
+#title-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#monthly-calendar {
+    margin: 0 auto;
+    width: 90vw;
+}
